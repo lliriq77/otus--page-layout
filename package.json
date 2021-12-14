@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack build --node-env production",
+    "test": "jest",
     "lint": "eslint . & prettier --check .",
     "lint:fix": "eslint . --fix & prettier --write .",
     "prepare": "husky install",
@@ -42,6 +43,7 @@
     "html-loader": "^3.0.1",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
+    "jest": "^27.4.3",
     "lint-staged": "^11.2.6",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^2.4.5",
