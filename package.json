@@ -1,27 +1,26 @@
 {
-  "name": "otus--weather-forecast",
+  "name": "otus--page-layout",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack build --node-env production",
-    "test": "jest",
-    "lint": "prettier --check .",
-    "lint:fix": "prettier --write .",
+    "lint": "eslint . & prettier --check .",
+    "lint:fix": "eslint . --fix & prettier --write .",
     "prepare": "husky install",
     "dev": "webpack serve --open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lliriq77/otus--weather-forecast.git"
+    "url": "git+https://github.com/lliriq77/otus--page-layout.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lliriq77/otus--weather-forecast/issues"
+    "url": "https://github.com/lliriq77/otus--page-layout/issues"
   },
   "keywords": [],
-  "homepage": "https://github.com/lliriq77/otus--weather-forecast#readme",
+  "homepage": "https://github.com/lliriq77/otus--page-layout#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   },
