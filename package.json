@@ -23,6 +23,7 @@
   "keywords": [],
   "homepage": "https://github.com/lliriq77/otus--page-layout#readme",
   "dependencies": {
+    "csso": "^5.0.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
