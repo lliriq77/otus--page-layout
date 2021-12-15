@@ -51,6 +51,7 @@ article {
   margin-right: 0px;
   height: 600px;
   float: left;
+  overflow: scroll;
 }
 
 .left {
@@ -67,6 +68,7 @@ aside {
   margin: 10px;
   display: inline-block;
   height: 600px;
+  overflow: scroll;
 }
 
 h2 {
