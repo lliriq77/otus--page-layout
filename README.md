@@ -4,7 +4,7 @@
 >
 > ![PR Sanity Check](https://github.com/lliriq77/otus--page-layout/actions/workflows/sanity-check.yml/badge.svg)
 
-___
+---
 
 1. Создать новый github репозиторий
 2. подключить к нему линтеры и actions разобранные ранее

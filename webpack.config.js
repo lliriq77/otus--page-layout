@@ -46,7 +46,12 @@ module.exports = {
     ],
   },
   optimization: {
-    minimizer: [`...`, new CssMinimizerPlugin()],
+    minimizer: [
+      `...`,
+      new CssMinimizerPlugin({
+        minify: CssMinimizerPlugin.cssoMinify,
+      }),
+    ],
   },
   mode: NODE_ENV === "production" ? "production" : "development",
   plugins: [
